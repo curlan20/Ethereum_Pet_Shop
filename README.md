@@ -23,17 +23,17 @@ $ # MetMask version: 4.6.1
 
 2. Run the development console.
 
-    truffle develop
+        truffle develop
 
 3. Compile and migrate the smart contracts. Note inside the development console we don't preface commands with truffle.
 
-    compile
-    migrate
+        compile
+        migrate
 
 4. Open another ternminal and Run the liteserver development server (outside the development console) for front-end hot   reloading. 
    Smart contract changes must be manually recompiled and migrated.
 
   // Serves the front-end on http://localhost:3000
-    npm run dev
+        npm run dev
 
-The complete tutorial from Truffle can be found [here](http://truffleframework.com/tutorials/pet-shop)
+The complete tutorial from Truffle can be found [here](http://truffleframework.com/tutorials/pet-shop).
